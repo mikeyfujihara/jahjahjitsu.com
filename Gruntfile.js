@@ -154,7 +154,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= yeoman.app %>/images',
-          src: '{,*/}*.{png,jpg,jpeg}',
+          src: '*.png',
           dest: '<%= yeoman.dist %>/images'
         }]
       }
@@ -225,7 +225,7 @@ module.exports = function (grunt) {
             '*.{ico,txt}',
             '.htaccess',
             'components/**/*',
-            'images/{,*/}*.{gif,webp}'
+            'images/{,*/}*.{gif,webp,png}'
           ]
         }]
       }
@@ -261,7 +261,7 @@ module.exports = function (grunt) {
     'coffee',
     'compass:dist',
     'useminPrepare',
-    'imagemin',
+    // 'imagemin',
     'cssmin',
     'htmlmin',
     'concat',

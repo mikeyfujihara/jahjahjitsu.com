@@ -1,1 +1,46 @@
 @import "compass_twitter_bootstrap";
+
+.welcome {
+  
+}
+.print {
+  position:absolute;
+  z-index:0;
+}
+.inside {
+  position: absolute;
+  z-index:10;
+}
+.inside img{
+  display:none;
+}
+.blank {
+  position: absolute;
+  z-index:100;
+}
+.kaweeks{
+  position: absolute;
+  z-index:110;
+}
+.kaweeks img{
+  display:none;
+}
+.mahalo {
+  position:absolute;
+  z-index:120;
+}
+.mahalo img {
+  display:none;
+}
+.paypal {
+  position:absolute;
+  top: 640px;
+  z-index:110;
+}
+.sold-out {
+  transform:rotate(7deg);
+  -ms-transform:rotate(7deg); /* IE 9 */
+  -moz-transform:rotate(7deg); /* Firefox */
+  -webkit-transform:rotate(7deg); /* Safari and Chrome */
+  -o-transform:rotate(7deg); /* Opera */
+}
